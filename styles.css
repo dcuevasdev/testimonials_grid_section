@@ -1,0 +1,23 @@
+/*=== Variables ===*/
+:root {
+  /*=== colors ===*/
+  --background-violet: #7541c8;
+  --background-grayish: #48556a;
+  --background-blackish: #19212e;
+  --Light-gray: #cfcfcf;
+  --Light-blue: #ecf2f8;
+
+  /*=== font ===*/
+  --font: "Barlow Semi Condensed", sans-serif;
+}
+/*=== Global styles ===*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-family: var(--font);
+}
