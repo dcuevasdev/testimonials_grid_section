@@ -20,4 +20,69 @@ html {
   font-size: 62.5%;
   line-height: 1.5;
   font-family: var(--font);
+  background-color: var(--Light-blue);
+}
+
+/*=== Styles ===*/
+.container {
+  display: grid;
+  place-content: center;
+  margin: 0 2.4rem;
+}
+.container__opinion {
+  margin: 0.8rem 0;
+  padding: 3.2rem;
+  border-radius: 0.8rem;
+}
+.section__one {
+  background-color: var(--background-violet);
+}
+.section__two {
+  background-color: var(--background-grayish);
+}
+.section__three {
+  background-color: #fff;
+}
+.section__four {
+  background-color: var(--background-blackish);
+}
+.section__five {
+  background-color: #fff;
+}
+.container__opinion-user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.container__opinion-user img {
+  width: 3.8rem;
+  border-radius: 50%;
+  margin-right: 1.6rem;
+}
+.container__opinion-user .user__data h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+}
+.container__opinion-user .user__data .clear-title {
+  color: var(--background-grayish);
+}
+.container__opinion-user .user__data small {
+  font-size: 1.2rem;
+  color: #fff;
+  opacity: 0.5;
+}
+.container__opinion-text {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+.container__opinion-quote {
+  font-size: 1.6rem;
+  color: #fff;
+  opacity: 0.7;
+}
+.clear-text {
+  color: var(--background-blackish);
 }
